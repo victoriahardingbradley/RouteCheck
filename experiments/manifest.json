@@ -1,0 +1,79 @@
+{
+  "study_id": "study_20261020T183326_165999Z",
+  "neural_weights_sha256": "e40ed71ad8fdddec93c064dadf41d01c640fb55527bd48c0d47522a514fcbdf3",
+  "individual_trial_files": 576,
+  "created_at_utc": "2026-10-20T18:33:26.165994+00:00",
+  "source_url": "https://registry.opendata.aws/amazon-last-mile-challenges/",
+  "schema_url": "https://github.com/MIT-CAVE/rc-cli/blob/main/templates/data_structures.md",
+  "source_version": "2021 release; local model-build files with 6112 routes from 2018",
+  "retrieval_date": "Unknown: user supplied local files; inspected 2026-10-20",
+  "source_files": [
+    {
+      "name": "route_data.json",
+      "bytes": 78972162,
+      "mtime_ns": 1792243139000000000
+    },
+    {
+      "name": "package_data.json",
+      "bytes": 375437806,
+      "mtime_ns": 1792243140000000000
+    },
+    {
+      "name": "travel_times.json",
+      "bytes": 1817146363,
+      "mtime_ns": 1792243142000000000
+    },
+    {
+      "name": "actual_sequences.json",
+      "bytes": 9665078,
+      "mtime_ns": 1792242649000000000
+    }
+  ],
+  "rights": "AWS registry lists CC BY-NC 4.0. Raw data remain in the user folder and are excluded from the application archive. Review terms before public redistribution.",
+  "subset_rule": "First 24 complete routes in route_data.json source order with actual sequences and no unresolved quality flags. Preserve all stops and package records for each selected route.",
+  "selected_route_count": 24,
+  "source_route_count": 6112,
+  "split_rule": "Chronological groups by full route date: train <= 2018-08-07; validation <= 2018-08-14; test later. No route or date overlaps.",
+  "split_counts": {
+    "train": 15,
+    "validation": 5,
+    "test": 4
+  },
+  "date_range": [
+    "2018-07-21",
+    "2018-08-24"
+  ],
+  "exclusion_log": [
+    {
+      "route_id": "RouteID_00bea18c-ee16-4a18-a916-7a447c733a7d",
+      "reason": "Unresolved source-quality flag or missing actual sequence"
+    }
+  ],
+  "seeds": [
+    7,
+    19,
+    43
+  ],
+  "simulated_stages": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50
+  ],
+  "conditions": [
+    "Reference",
+    "Stale only",
+    "Low quality only",
+    "Combined"
+  ],
+  "experiment_rows": 576,
+  "degradation_stage": "Frozen-model inference inputs only. No retraining during progression. Stale observations simulate a frozen feed missing a reference congestion increase. No observed Amazon incident is claimed.",
+  "edge_volume": "Total directed edge count is fixed per route. The legacy/fast-feed contribution share grows by the stage percentage; combined sets can overlap.",
+  "countermeasure": "Flag age >30 days, missing values or validation-calibrated log residuals; replace using the training-only neural travel estimator. No current reference values or defect labels enter repair.",
+  "evaluation": "Replay recommended order against untouched supplied travel-time estimates and planned package service durations, waiting for package-window intersections and returning to depot. Primary metric: estimated reference replay minutes, lower better. Historical estimates are not fresh verified outcomes or optimal routes.",
+  "human_effort": "No participant study conducted. Runtime is measured separately. Human review duration is recorded only when a person submits an app review.",
+  "total_wall_seconds": 74.50820437498624,
+  "compute_cost": "Local CPU only; no paid AI or routing API calls. Electricity and human verification costs not measured."
+}
