@@ -1,0 +1,235 @@
+{
+  "architecture": "7 \u2192 24 tanh \u2192 1 edge-choice logit; 6 \u2192 24 tanh \u2192 1 log travel-minute estimate",
+  "method": "Supervised neural constructive policy, driver imitation with negative candidate sampling and masked greedy decoding. No reinforcement learning or pointer-network claim.",
+  "seed": 7,
+  "policy_examples": 10330,
+  "travel_examples": 15000,
+  "threshold": 1.0986122886681098,
+  "policy_history": [
+    {
+      "epoch": 1,
+      "validation_loss": 0.2975432690675855
+    },
+    {
+      "epoch": 2,
+      "validation_loss": 0.2159293799563915
+    },
+    {
+      "epoch": 3,
+      "validation_loss": 0.19255705261719774
+    },
+    {
+      "epoch": 4,
+      "validation_loss": 0.18934467067938773
+    },
+    {
+      "epoch": 5,
+      "validation_loss": 0.1859352133926206
+    },
+    {
+      "epoch": 6,
+      "validation_loss": 0.19117431255276007
+    },
+    {
+      "epoch": 7,
+      "validation_loss": 0.18958432241263995
+    },
+    {
+      "epoch": 8,
+      "validation_loss": 0.1893462474804698
+    },
+    {
+      "epoch": 9,
+      "validation_loss": 0.18478942900882545
+    },
+    {
+      "epoch": 10,
+      "validation_loss": 0.18501180125242497
+    },
+    {
+      "epoch": 11,
+      "validation_loss": 0.1897527005891006
+    },
+    {
+      "epoch": 12,
+      "validation_loss": 0.18779762918188275
+    },
+    {
+      "epoch": 13,
+      "validation_loss": 0.19105672467876222
+    },
+    {
+      "epoch": 14,
+      "validation_loss": 0.18695926379559613
+    },
+    {
+      "epoch": 15,
+      "validation_loss": 0.1907706202596877
+    },
+    {
+      "epoch": 16,
+      "validation_loss": 0.19060292037355359
+    },
+    {
+      "epoch": 17,
+      "validation_loss": 0.1945884857377652
+    }
+  ],
+  "travel_history": [
+    {
+      "epoch": 1,
+      "validation_loss": 0.3124987992217132
+    },
+    {
+      "epoch": 2,
+      "validation_loss": 0.08507135722924786
+    },
+    {
+      "epoch": 3,
+      "validation_loss": 0.06672513669226415
+    },
+    {
+      "epoch": 4,
+      "validation_loss": 0.06062485475352669
+    },
+    {
+      "epoch": 5,
+      "validation_loss": 0.05815160997633236
+    },
+    {
+      "epoch": 6,
+      "validation_loss": 0.05285141973351331
+    },
+    {
+      "epoch": 7,
+      "validation_loss": 0.05157017194497366
+    },
+    {
+      "epoch": 8,
+      "validation_loss": 0.048636423310498264
+    },
+    {
+      "epoch": 9,
+      "validation_loss": 0.0484060443393209
+    },
+    {
+      "epoch": 10,
+      "validation_loss": 0.04651419332816804
+    },
+    {
+      "epoch": 11,
+      "validation_loss": 0.0485994312633779
+    },
+    {
+      "epoch": 12,
+      "validation_loss": 0.045432502285979455
+    },
+    {
+      "epoch": 13,
+      "validation_loss": 0.04521814038953718
+    },
+    {
+      "epoch": 14,
+      "validation_loss": 0.04628745814100894
+    },
+    {
+      "epoch": 15,
+      "validation_loss": 0.047096849726184206
+    },
+    {
+      "epoch": 16,
+      "validation_loss": 0.044901302876581325
+    },
+    {
+      "epoch": 17,
+      "validation_loss": 0.043437823063052806
+    },
+    {
+      "epoch": 18,
+      "validation_loss": 0.046195502656723314
+    },
+    {
+      "epoch": 19,
+      "validation_loss": 0.044948400897942914
+    },
+    {
+      "epoch": 20,
+      "validation_loss": 0.043841556616064814
+    },
+    {
+      "epoch": 21,
+      "validation_loss": 0.04474897726226786
+    },
+    {
+      "epoch": 22,
+      "validation_loss": 0.04493010465295367
+    },
+    {
+      "epoch": 23,
+      "validation_loss": 0.04268530697895676
+    },
+    {
+      "epoch": 24,
+      "validation_loss": 0.04317944590548584
+    },
+    {
+      "epoch": 25,
+      "validation_loss": 0.04308886487996829
+    },
+    {
+      "epoch": 26,
+      "validation_loss": 0.04537819283520825
+    },
+    {
+      "epoch": 27,
+      "validation_loss": 0.043689264526004044
+    },
+    {
+      "epoch": 28,
+      "validation_loss": 0.0436169787813576
+    },
+    {
+      "epoch": 29,
+      "validation_loss": 0.04516377886689529
+    },
+    {
+      "epoch": 30,
+      "validation_loss": 0.043149144716767854
+    },
+    {
+      "epoch": 31,
+      "validation_loss": 0.043836976156984994
+    }
+  ],
+  "training_seconds": 4.273247541976161,
+  "train_routes": [
+    "RouteID_007b8544-11dc-47b2-be61-0095f8f2af71",
+    "RouteID_00143bdd-0a6b-49ec-bb35-36593d303e77",
+    "RouteID_0016bc70-cb8d-48b0-aa55-8ee50bdcdb59",
+    "RouteID_00595235-52e7-4b68-883c-70482701dea0",
+    "RouteID_00437423-5a8f-4fac-8efa-85264f0a3944",
+    "RouteID_00ca3fbf-8953-4fbb-9c59-96fce68e6504",
+    "RouteID_0036cf37-1c93-48f8-b337-3dd6d1a195d8",
+    "RouteID_0074e307-23c1-4b15-afa2-e58b45e4403c",
+    "RouteID_007a8397-37f4-4775-a452-c6934167526b",
+    "RouteID_00575a14-7d19-4291-8853-8f7095ed1bc6",
+    "RouteID_00d421bf-f001-4fb0-923e-c343d3d369bc",
+    "RouteID_0021a2aa-780f-460d-b09a-f301709e2523",
+    "RouteID_00575ca4-8a63-49d2-96c8-9b347be5ba6c",
+    "RouteID_0091a35c-85fa-4b5e-90cf-4778f441753e",
+    "RouteID_00a25e47-65c9-4efc-bfe9-8d9648a0df4e"
+  ],
+  "validation_routes": [
+    "RouteID_006f581c-3087-4edf-8802-278b078157b9",
+    "RouteID_00747543-3f2f-47ae-a2f2-91b30ce207ab",
+    "RouteID_00ace8b4-30c6-4a20-a723-74ece636a0da",
+    "RouteID_00573a3d-b909-42ee-8a99-c6474309d96b",
+    "RouteID_00930ddc-25f9-4371-a437-1e37c9d0a80d"
+  ],
+  "test_routes": [
+    "RouteID_001b4ee3-c4f2-467f-932b-c85524d1021f",
+    "RouteID_00b8cd9c-613a-4519-b3fd-2b7174f1cff3",
+    "RouteID_001948e9-4675-486d-9ec5-912fd8e0770f",
+    "RouteID_0076d53c-6bfa-4e22-b39e-08769fb8e4d3"
+  ]
+}
