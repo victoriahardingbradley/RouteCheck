@@ -1,0 +1,35 @@
+{
+  "description": "Four complete, real held-out routes. No fabricated routes.",
+  "source": "Amazon Last Mile Routing Research Challenge dataset (2021)",
+  "license": "CC BY-NC 4.0",
+  "routes": [
+    {
+      "route_id": "RouteID_001b4ee3-c4f2-467f-932b-c85524d1021f",
+      "file": "RouteID_001b4ee3-c4f2-467f-932b-c85524d1021f.json",
+      "sha256": "af4e80e6f656c90d558fa80ee7564495f7dc8246bd60179b200e50fdd24eceef",
+      "date": "2018-08-15",
+      "station": "DLA9"
+    },
+    {
+      "route_id": "RouteID_00b8cd9c-613a-4519-b3fd-2b7174f1cff3",
+      "file": "RouteID_00b8cd9c-613a-4519-b3fd-2b7174f1cff3.json",
+      "sha256": "b9a3bae48927fcf4c530810c92766407bc4be37d03ffcf48ae131925c87e0696",
+      "date": "2018-08-17",
+      "station": "DLA3"
+    },
+    {
+      "route_id": "RouteID_001948e9-4675-486d-9ec5-912fd8e0770f",
+      "file": "RouteID_001948e9-4675-486d-9ec5-912fd8e0770f.json",
+      "sha256": "7855c1398022ae1339d4a1ff8201f48d63b76a72a7b95036819d16bdc969ee32",
+      "date": "2018-08-18",
+      "station": "DSE5"
+    },
+    {
+      "route_id": "RouteID_0076d53c-6bfa-4e22-b39e-08769fb8e4d3",
+      "file": "RouteID_0076d53c-6bfa-4e22-b39e-08769fb8e4d3.json",
+      "sha256": "a24d212a2bd6e281abde35bab886a1890ec086928260bfde53deecc73d4d9735",
+      "date": "2018-08-24",
+      "station": "DSE5"
+    }
+  ]
+}

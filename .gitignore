@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.sqlite3*
+.streamlit/secrets.toml
+.env
+experiments/interactive_trials/
